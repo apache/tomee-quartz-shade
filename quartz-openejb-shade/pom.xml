@@ -16,7 +16,8 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
@@ -30,9 +31,10 @@
   <name>OpenEJB :: Dependencies :: Quartz Shade</name>
 
   <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/tomee/deps/tags/quartz-openejb-shade-2.2.1</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/tomee/deps/tags/quartz-openejb-shade-2.2.1</developerConnection>
-    <url>http://svn.apache.org/viewvc/tomee/deps/tags/quartz-openejb-shade-2.2.1</url>
+    <connection>scm:svn:https://svn.apache.org/repos/asf/tomee/deps/trunk/quartz-openejb-shade</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/tomee/deps/trunk/quartz-openejb-shade
+    </developerConnection>
+    <url>http://svn.apache.org/viewvc/tomee/deps/trunk/quartz-openejb-shade/</url>
   </scm>
 
   <properties>
@@ -96,6 +98,8 @@
             </goals>
             <configuration>
               <createSourcesJar>true</createSourcesJar>
+              <useBaseVersion>true</useBaseVersion>
+              <createDependencyReducedPom>false</createDependencyReducedPom>
               <relocations>
                 <relocation>
                   <pattern>org.quartz</pattern>
