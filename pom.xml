@@ -27,10 +27,10 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.apache.openejb.shade</groupId>
-  <artifactId>quartz-openejb-shade</artifactId>
+  <groupId>org.apache.tomee.shade</groupId>
+  <artifactId>tomee-quartz-shade</artifactId>
   <version>2.2.5-SNAPSHOT</version>
-  <name>OpenEJB :: Dependencies :: Quartz Shade</name>
+  <name>Apache TomEE :: Dependencies :: Quartz Shade</name>
 
   <scm>
     <connection>scm:git:https://git-wip-us.apache.org/repos/asf/quartz-openejb-shade.git</connection>
@@ -134,11 +134,11 @@
               <relocations>
                 <relocation>
                   <pattern>org.quartz</pattern>
-                  <shadedPattern>org.apache.openejb.quartz</shadedPattern>
+                  <shadedPattern>org.apache.tomee.quartz</shadedPattern>
                 </relocation>
                 <relocation>
                   <pattern>org.terracotta</pattern>
-                  <shadedPattern>org.apache.openejb.terracotta</shadedPattern>
+                  <shadedPattern>org.apache.tomee.terracotta</shadedPattern>
                 </relocation>
               </relocations>
             </configuration>
