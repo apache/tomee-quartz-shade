@@ -142,11 +142,11 @@
               <relocations>
                 <relocation>
                   <pattern>org.quartz</pattern>
-                  <shadedPattern>org.apache.tomee.quartz</shadedPattern>
+                  <shadedPattern>org.apache.openejb.quartz</shadedPattern>
                 </relocation>
                 <relocation>
                   <pattern>org.terracotta</pattern>
-                  <shadedPattern>org.apache.tomee.terracotta</shadedPattern>
+                  <shadedPattern>org.apache.openejb.terracotta</shadedPattern>
                 </relocation>
               </relocations>
             </configuration>
