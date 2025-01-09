@@ -69,22 +69,26 @@
   </mailingLists>
 
   <properties>
-    <quartz.version>2.2.4</quartz.version>
+    <quartz.version>2.5.0</quartz.version>
   </properties>
 
   <dependencies>
     <dependency>
-      <groupId>org.tomitribe.quartz</groupId>
+      <groupId>org.quartz-scheduler</groupId>
       <artifactId>quartz</artifactId>
       <version>${quartz.version}</version>
       <exclusions>
         <exclusion>
-          <groupId>javax.transaction</groupId>
-          <artifactId>jta</artifactId>
+          <groupId>jakarta.xml.bind</groupId>
+          <artifactId>jakarta.xml.bind-api</artifactId>
         </exclusion>
         <exclusion>
           <groupId>c3p0</groupId>
           <artifactId>c3p0</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>com.zaxxer</groupId>
+          <artifactId>HikariCP</artifactId>
         </exclusion>
         <exclusion>
           <groupId>org.slf4j</groupId>
@@ -93,19 +97,23 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.tomitribe.quartz</groupId>
+      <groupId>org.quartz-scheduler</groupId>
       <artifactId>quartz</artifactId>
       <version>${quartz.version}</version>
       <classifier>sources</classifier>
       <optional>true</optional>
       <exclusions>
         <exclusion>
-          <groupId>javax.transaction</groupId>
-          <artifactId>jta</artifactId>
+          <groupId>jakarta.xml.bind</groupId>
+          <artifactId>jakarta.xml.bind-api</artifactId>
         </exclusion>
         <exclusion>
           <groupId>c3p0</groupId>
           <artifactId>c3p0</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>com.zaxxer</groupId>
+          <artifactId>HikariCP</artifactId>
         </exclusion>
         <exclusion>
           <groupId>org.slf4j</groupId>
@@ -120,7 +128,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-shade-plugin</artifactId>
-        <version>3.2.0</version>
+        <version>3.4.1</version>
         <executions>
           <execution>
             <phase>package</phase>
