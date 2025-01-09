@@ -6,6 +6,12 @@ http://www.apache.org/licenses/LICENSE-2.0.html[image:http://img.shields.io/:lic
 
 Older Versions can be found here: https://svn.apache.org/repos/asf/tomee/deps/
 
+=== Deploying SNAPSHOTs
+
+This project is build by this job: https://ci-builds.apache.org/job/Tomee/job/tomee-quartz-shade-deploy/
+
+It deploys daily SNAPSHOT artifacts.
+
 === License
 
 link:LICENSE[Apache License 2.0]
