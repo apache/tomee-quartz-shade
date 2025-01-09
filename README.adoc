@@ -1,6 +1,6 @@
 http://www.apache.org/licenses/LICENSE-2.0.html[image:http://img.shields.io/:license-apache-blue.svg[License]]
 
-== Apache TomEE - Quart Shade
+== Apache TomEE - Quartz Shade
 
 === Older Versions
 
