@@ -33,9 +33,9 @@
   <name>Apache TomEE :: Dependencies :: Quartz Shade</name>
 
   <scm>
-    <connection>scm:git:https://git-wip-us.apache.org/repos/asf/quartz-openejb-shade.git</connection>
-    <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/quartz-openejb-shade.git</developerConnection>
-    <url>http://git-wip-us.apache.org/repos/asf/quartz-openejb-shade.git</url>
+    <connection>scm:git:https://gitbox.apache.org/repos/asf/quartz-openejb-shade.git</connection>
+    <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/quartz-openejb-shade.git</developerConnection>
+    <url>http://gitbox.apache.org/repos/asf/quartz-openejb-shade.git</url>
     <tag>HEAD</tag>
   </scm>
 
