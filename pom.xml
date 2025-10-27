@@ -29,14 +29,14 @@
 
   <groupId>org.apache.tomee.shade</groupId>
   <artifactId>tomee-quartz-shade</artifactId>
-  <version>2.5.1-SNAPSHOT</version>
+  <version>2.5.1</version>
   <name>Apache TomEE :: Dependencies :: Quartz Shade</name>
 
   <scm>
     <connection>scm:git:https://gitbox.apache.org/repos/asf/tomee-quartz-shade.git</connection>
     <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/tomee-quartz-shade.git</developerConnection>
     <url>http://gitbox.apache.org/repos/asf/tomee-quartz-shade.git</url>
-    <tag>HEAD</tag>
+    <tag>tomee-quartz-shade-2.5.1</tag>
   </scm>
 
   <issueManagement>
